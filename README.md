@@ -10,10 +10,9 @@ Test: "It will turn all characters to lower case."
 Code: findVowels("A")
 Expected Output: "a"
 
-Test: "It will recognize a vowel"
-Code: findVowels
-
 Test: "It will recognize a vowel at the start of a word"
+Code: findVowels("Open door")
+Expected Output: "open"
 
 Test: "It will add 'way' to the end of words that begin with a vowel."
 
